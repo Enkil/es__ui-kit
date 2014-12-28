@@ -1,0 +1,26 @@
+.image{
+	width: @img-width;
+	height: @img-height;
+	border-radius: @img-brdr;
+	display: inline-block;
+
+	position: relative;
+	overflow: hidden;
+
+ 	&--zoom:after {
+    	content: '';
+   	 	display: none;    	
+    	position: absolute;
+    	top: 0;
+    	width: @img-width;
+    	height: @img-height;
+    	vertical-align: middle;
+   	 	text-align: center;
+   	 	background: url(../../img/icon-zoom.png) no-repeat center center rgba(0,0,0,.5);
+  	}
+
+	&--zoom:hover:after {
+    	display: block;
+    	cursor: pointer;
+  	}
+}
