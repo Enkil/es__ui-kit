@@ -97,13 +97,23 @@
 						Всплывашечка с подписью поверх фотографии
 					</figcaption>
 				</figure>
-
-				<figure class="image image--rotate">
-						<img src="img/image.jpg"alt="">
-						<figcaption>
+				
+				<!-- image with flip card effect on hover -->
+<!-- 				<figure class="image image__flip-container"> 
+					<div class="image__flipper">
+						<img class="image__flip-front" src="img/image.jpg"alt="">
+						<figcaption class="image__flip-back">
 							<span>При наведении фотография разворачивается, и на другой стороне оказывается текст</span>
 						</figcaption>
-				</figure>												
+					</div>
+				</figure>	 -->	
+
+				<figure class="image image-flip__container"> <!-- image with flip card effect on hover -->
+					<img class="image-flip__front" src="img/image.jpg"alt="">
+					<figcaption class="image-flip__back image-flip__back--text">
+						<span>При наведении фотография разворачивается, и на другой стороне оказывается текст</span>
+					</figcaption>
+				</figure>														
 
 
 			</div>
