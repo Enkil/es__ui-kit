@@ -1,0 +1,47 @@
+// Simple input forms
+.form-input{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 355px;
+	background-color: #fff;
+	border-radius: 4px;
+	padding: 10px 80px 15px 30px;
+
+	&__item{
+		display: block;
+		box-sizing: border-box;
+		border-radius: 3px;
+		background-color: #fff;
+		width: 246px;
+		border: 2px solid #eaeaea;
+		padding: 11px 10px 12px 12px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-size: 15px;
+		color: #666666;
+		outline: none;
+		position: relative;
+
+		&--normal{
+
+		}
+
+		&--active{
+			
+		}
+
+		&--wrong{
+			border: 2px solid #f2adad;
+			background-image: url(../../img/icon-cross.png);
+			background-repeat: no-repeat;
+			background-position: 95% center;
+		}
+
+		&--correct{
+			border: 2px solid #cff3aa;
+			background-image: url(../../img/icon-check.png);
+			background-repeat: no-repeat;
+			background-position: 95% center;			
+		}						
+	}
+}
