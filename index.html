@@ -112,17 +112,30 @@
 		<hr>
 
 		<div class="row-loc">
-			<div class="col-loc-12">
 			
-			<form action="#" class="form-input">
-				<input class="form-input__item form-input__item--normal" type="text" placeholder="Полковнику никто не пишет">
-				<input class="form-input__item form-input__item--active" type="text" value="Пишет!">
-				<input class="form-input__item form-input__item--wrong" type="text" value="Но не то">
-				<input class="form-input__item form-input__item--correct" type="text" value="А, нет, все правильно">
-			</form>
-
+			<div class="col-loc-4"> <!-- simple input form-->
+			
+				<form action="#" class="form-input">
+					<input class="form-input__item form-input__item--normal" type="text" placeholder="Полковнику никто не пишет">
+					<input class="form-input__item form-input__item--active" type="text" value="Пишет!">
+					<input class="form-input__item form-input__item--wrong" type="text" value="Но не то">
+					<input class="form-input__item form-input__item--correct" type="text" value="А, нет, все правильно">
+				</form>
 
 			</div>
+
+			<div class="col-loc-4"> <!-- simple tag and dropdown forms-->
+				
+				<form action="#" class="form-tags">
+					<select class="form-tags__select" name="tags" id="" multiple="">
+						<option class="form-tags__item" value="">Быстрее</option>
+						<option class="form-tags__item" value="form-tags__item">Выше</option>
+						<option class="form-tags__item" value="form-tags__item">Сильнее</option>
+					</select>
+				</form>
+
+			</div>
+
 		</div>
 
 	</div>	
